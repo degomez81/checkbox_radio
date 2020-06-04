@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prueba de Formulario Accesibilidad</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<style>
+fieldset {
+  background-color: #eeeeee;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+input {
+  margin: 5px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Accesibilidad con checkbox y radio button</h1>
+
+    <form method="post" action="">
+        <div class="row"> 
+        <div class="col-6"> 
+            <fieldset >
+                <legend>Custom checkbox:</legend>
+                <input type="checkbox" id="checkone" name="checkone" checked>
+                <label for="checkone"> One</label><br>
+            
+                <input type="checkbox" id="checktwo" name="checkboxtwo">
+                <label for="checktwo"> Two</label><br>
+            
+                <input type="checkbox" id="checkthree" name="checkthree">
+                <label for="checkthree"> Three</label><br>
+            
+                <input type="checkbox" id="checkfour" name="checkfour">
+                <label for="checkfour"> Four</label><br>
+            
+            </fieldset>
+        </div> 
+        <div class="col-6"> 
+            <fieldset >
+                <legend>Custom radio button:</legend>
+                <input type="radio" id="radone" name="radone">
+                <label for="radone"> One</label><br>
+
+                <input type="radio" id="radtwo" name="radtwo">
+                <label for="radtwo"> Two</label><br>
+                
+                <input type="radio" id="radthree" name="radthree" checked>
+                <label for="radthree"> Three</label><br>
+
+                <input type="radio" id="radfour" name="radfour">
+                <label for="radfour"> Four</label><br>
+                
+            </fieldset>
+        </div> 
+    </div>
+</div>
+</form>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
